@@ -1,2 +1,2 @@
 #!/bin/bash
-locale | printenv | declare -f
+declare -l | env | declare -f
